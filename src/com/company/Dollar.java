@@ -1,8 +1,5 @@
 package com.company;
 
-/**
- * Created by lperez on 1/29/15.
- */
 public class Dollar {
 
     private int amount;
@@ -11,4 +8,7 @@ public class Dollar {
         this.amount = amount;
     }
 
+    public int getAmount() {
+        return amount;
+    }
 }

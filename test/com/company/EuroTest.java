@@ -45,6 +45,6 @@ public class EuroTest {
 
     @Test
     public void hundredEuroShouldEqualTo135Dollars(){
-        assertEquals(new Euro(100), new Dollar(135));
+        assertTrue(new Euro(100).equals(new Dollar(135)));
     }
 }
